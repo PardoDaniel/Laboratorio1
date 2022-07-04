@@ -1,0 +1,65 @@
+body{
+    background-color: #c5d4eb;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: black ;
+}
+address{    
+    width: 200px;
+    height: 125px;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size :small;
+    animation: forwards;
+    animation-name: example;
+    animation-duration: 4s;
+}
+ul.a{
+    list-style-type: circle;
+}
+ul.b{
+    list-style-type: square;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    border: 1px solid black;
+    background-color: #bbd2ec;
+    text-align: justify;
+    text-justify: inter-word;
+    animation: forwards;
+    animation-name: example;
+    animation-duration: 8s;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    border: 1px solid black;
+    background-color: #bbd2ec;
+    text-align: justify;
+    text-justify: inter-word;
+    animation: forwards;
+    animation-name: example;
+    animation-duration: 10s;
+}
+@keyframes example{
+    from {background-color: black}
+    to {background-color: #bbd2ec;}
+}
